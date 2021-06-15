@@ -84,15 +84,27 @@
 
                 <p class="text-xs my-8"> A total of 420 copies of this album are available.  Each costs 1 0xBTC which seems like a very low price.  However, that will one day be worth an unfathomably large amount of money and you will hate yourself for buying this album. </p>
 
+
+                <div v-if="!connectedToWeb3">
+
+                   <div class="text-md my-2"> Please connect to Web3  </div>
+ 
+                  <div  @click="connectToWeb3" class="button bg-blue-500 hover:bg-blue-700 text-sm text-black font-bold my-2 py-1 px-2 rounded cursor-pointer inline ">Login with Web3</div>
+
+
+                </div>
+
+                 <div v-if="connectedToWeb3">
+
                   <div class="text-md my-2"> Remaining copies available: {{ (420-amountMinted)  }} </div>
 
                  <div class="text-md my-2"> Minting price: 1 0xBTC </div>
  
 
                 <div   @click="mintAlbum()" class="bg-purple-500 hover:bg-purple-600 my-8 p-4 rounded text-center cursor-pointer"> Mint 'Cryptofunks LP' </div>
-         </div>
-
-        
+            </div>
+        </div>
+            
          
 
 
@@ -136,6 +148,7 @@ export default {
     return {
       web3Plug: new Web3Plug()  ,
       amountMinted: 0,
+      connectedToWeb3: false
        
 
       
@@ -150,6 +163,10 @@ export default {
          
         this.activeAccountAddress = connectionState.activeAccountAddress
         this.activeNetworkId = connectionState.activeNetworkId 
+
+        this.connectedToWeb3 = this.web3Plug.connectedToWeb3()
+
+           this.findAmountMinted()
          
       }.bind(this));
    this.web3Plug.getPlugEventEmitter().on('error', function(errormessage) {
@@ -162,16 +179,19 @@ export default {
       this.web3Plug.reconnectWeb()
    
        
-
+     
   },
   mounted: function () {
     //  setInterval(this.pollTokens.bind(this), 5000)
-
+      this.connectedToWeb3 = this.web3Plug.connectedToWeb3()  
     this.findAmountMinted()
     
   }, 
   methods: {
-       
+          
+          connectToWeb3(){
+            this.web3Plug.connectWeb3( )
+          },
 
           getRouteTo(dest){
             return FrontendHelper.getRouteTo(dest)
