@@ -7,7 +7,7 @@
         <div class="w-1/2 lg:w-1/4 flex flex-col px-4">
           <h3 class=" text-lg font-bold ">Documentation</h3>
 
-          <a href="https://etherscan.io/address/0x167152a46e8616d4a6892a6afd8e52f060151c70" target="_blank" class="no-underline inline-block text-sm text-gray-200 hover:text-purple-300 ">Album Contract</a>
+          <a href="https://etherscan.io/address/0x232ac5da68f539132f181306b6357363e1496918" target="_blank" class="no-underline inline-block text-sm text-gray-200 hover:text-purple-300 ">Album Contract</a>
               
               
           </div>
