@@ -13,7 +13,8 @@
           </div>
         <div class="w-1/2 lg:w-1/4 flex flex-col  px-4">
           <h3 class=" text-lg font-bold ">Community &amp; Social</h3>
-           <a href="https://cryptofunks.infernaltoast.com/CryptoFunks_LP.mp3" target="_blank" class="no-underline text-sm text-gray-200 hover:text-purple-300 inline-block">Audio Address</a>
+           <a href="https://cryptofunks.infernaltoast.com/CryptoFunks_LP.mp3" target="_blank" class="no-underline text-sm text-gray-200 hover:text-purple-300 inline-block">Audio URL</a>
+         <a href="https://www.youtube.com/watch?v=TfiYVHQZvr0" target="_blank" class="no-underline text-sm text-gray-200 hover:text-purple-300 inline-block">Youtube Link</a>
          
          
          </div>
