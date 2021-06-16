@@ -1,6 +1,6 @@
-# Miners Guild 
+# Cryptofunks-Web
 
-Community DAO for Neutral Dapps
+Website frontend for InfernalToast's debut music album.
  
 
  
