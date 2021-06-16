@@ -84,6 +84,9 @@
 
                 <p class="text-xs my-8"> A total of 420 copies of this album are available.  Each costs 1 0xBTC which seems like a very low price.  However, that will one day be worth an unfathomably large amount of money and you will hate yourself for buying this album. </p>
 
+                <div class=" my-4 mb-16 text-center">
+                   <a href="https://opensea.io/collection/cryptofunks-lp" target="_blank" class="text-xs text-center"> View the Collection on OpenSea </a>
+                </div>
 
                 <div v-if="!connectedToWeb3">
 
