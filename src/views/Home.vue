@@ -101,7 +101,7 @@
 
                   <div class="text-md my-2"> Remaining copies available: {{ (420-amountMinted)  }} </div>
 
-                 <div class="text-md my-2"> Minting price: 1 0xBTC </div>
+                 <div class="text-md my-2"> Minting price: 1 <a href="https://app.uniswap.org/#/swap?outputCurrency=0xb6ed7644c69416d67b522e20bc294a9a9b405b31" target="_blank">0xBTC</a> </div>
  
 
                 <div   @click="mintAlbum()" class="bg-purple-500 hover:bg-purple-600 my-8 p-4 rounded text-center cursor-pointer"> Mint 'Cryptofunks LP' </div>
