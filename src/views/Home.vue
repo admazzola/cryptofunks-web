@@ -82,7 +82,7 @@
            
                 <div class="text-2xl text-center hidden"> Mint your own copy </div>
 
-                <p class="text-xs my-8"> A total of 420 copies of this album are available.  Each costs 1 0xBTC which seems like a very low price.  However, that will one day be worth an unfathomably large amount of money and you will hate yourself for buying this album. </p>
+                <p class="text-xs my-8">InfernalToast is an Ethereum Solidity developer and Cryptopunk since 2018. Owner of Punk 1164, he launched the first PoW mineable token to Mainnet on Feb 6, 2018 spawning a large community of degens and the Miners Guild DAO.  In June 2021 he launched this limited run of Music NFTs named 'CryptoFunks' containing original work that he produced with FL Studio and Serum while locked down during the pandemic. Music for degens. </p>
 
                 <div class=" my-4 mb-16 text-center">
                    <a href="https://opensea.io/collection/cryptofunks-lp" target="_blank" class="text-xs text-center"> View the Collection on OpenSea </a>
@@ -99,7 +99,7 @@
 
                  <div v-if="connectedToWeb3">
 
-                  <div class="text-md my-2"> Remaining copies available: {{ (420-amountMinted)  }} </div>
+                  <div class="text-md my-2">   {{ ( amountMinted) }}  of 420 minted. </div>
 
                  <div class="text-md my-2"> Minting price: 1 <a href="https://0xbitcoin.org" target="_blank">0xBTC</a> </div>
  
