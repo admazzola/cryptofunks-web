@@ -8,7 +8,8 @@
           <h3 class=" text-lg font-bold ">Documentation</h3>
 
           <a href="https://etherscan.io/address/0x232ac5da68f539132f181306b6357363e1496918" target="_blank" class="no-underline inline-block text-sm text-gray-200 hover:text-purple-300 ">Album Contract</a>
-              
+                   <a href="https://app.uniswap.org/#/swap?outputCurrency=0xb6ed7644c69416d67b522e20bc294a9a9b405b31" target="_blank" class="no-underline inline-block text-sm text-gray-200 hover:text-purple-300 ">Buy 0xBTC on Uniswap</a>
+           
               
           </div>
         <div class="w-1/2 lg:w-1/4 flex flex-col  px-4">
